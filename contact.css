@@ -1,0 +1,63 @@
+.text{
+    position: absolute;
+    font-size: 40px;
+    bottom:70%;
+    left:30%;
+}
+
+.text1{
+    position: absolute;
+    font-size: 40px;
+    bottom:60%;
+    left:35%;
+}
+
+
+.text2{
+    position: absolute;
+    font-size: 40px;
+    bottom:50%;
+    left:35%;
+}
+
+.text1:hover{
+    color:red;
+}
+
+.text2:hover{
+    color: yellow;
+}
+
+
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    position: absolute;
+    top:2%;
+    left:25%;
+    
+}
+
+.b{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    color: black;
+    font-size:20px;
+}
+
+.b:hover{
+    color:whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    .list a {
+      float: none;
+      width: 100%;
+      display: flex;
+    }
+  }

@@ -1,0 +1,50 @@
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    position: absolute;
+    top:2%;
+    left:25%;
+    
+}
+
+.b{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    color: black;
+    font-size:20px;
+}
+
+.b:hover{
+    color:whitesmoke;
+}
+
+.yo{
+    position: absolute;
+    left:20%;
+    bottom:40%;
+    font-size:20px;
+}
+
+.cat1{
+    position: absolute;
+    bottom:1%;
+}
+
+.text{
+    position: absolute;
+    bottom:85%;
+    font-size: 40px;
+    left:12%;
+}
+
+@media screen and (max-width: 600px) {
+    .list a {
+      float: none;
+      width: 100%;
+      display:flex;
+    }
+  }

@@ -1,0 +1,44 @@
+.back{
+    border-color: black;
+    border-radius:10px;
+    
+}
+
+.main{
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    position: absolute;
+    top:2%;
+    left:50%;
+    
+}
+
+.b{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    color: black;
+    font-size:20px;
+}
+
+@media screen and (max-width: 600px) {
+    .list a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+
